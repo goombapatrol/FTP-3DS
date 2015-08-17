@@ -32,9 +32,9 @@ SOURCES  := source
 DATA     := data
 INCLUDES := include
 
-APP_TITLE       := ftBRONY
-APP_DESCRIPTION := Like ftPONY but magical.
-APP_AUTHOR      := mtheall
+APP_TITLE       := FTP-3DS
+APP_DESCRIPTION := "Now with 98% less unrelated fanbase pandering! (forked from ftBRONY)"
+APP_AUTHOR      := "iamevn (originally by mtheall)"
 
 #---------------------------------------------------------------------------------
 # options for code generation
@@ -44,7 +44,7 @@ ARCH     := -march=armv6k -mtune=mpcore -mfloat-abi=hard
 CFLAGS   := -g -Wall -O3 -mword-relocations \
             -fomit-frame-pointer -ffast-math \
             $(ARCH) \
-            -DSTATUS_STRING="\"ftbrony v1.0\""
+            -DSTATUS_STRING="\"FTP-3DS v1.0\""
 
 CFLAGS   +=  $(INCLUDE) -DARM11 -D_3DS
 
