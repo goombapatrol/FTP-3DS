@@ -20,6 +20,13 @@
 #include "sans_16_kerning_bin.h"
 #include "sans_16_render_bin.h"
 #include "banner_bin.h"
+#include "bannerl_bin.h"
+u8 *banner = banner_bin;
+void c_banner(void)
+{
+  banner = bannerl_bin;
+}
+
 
 /* TODO: add support for non-ASCII characters */
 
@@ -677,7 +684,7 @@ console_render(void)
   /* clear all screens */
   u8 bluish[] = { 0, 0, 127 };
   clear_screen(GFX_TOP,    GFX_LEFT,  bluish);
-  gfxDrawSprite(GFX_BOTTOM, GFX_LEFT, (u8*)banner_bin, 240, 320, 0, 0);
+  gfxDrawSprite(GFX_BOTTOM, GFX_LEFT, (u8*)banner, 240, 320, 0, 0);
 
   /* look up font for status bar and draw status bar */
   font = find_font("sans", 10);

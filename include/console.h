@@ -10,3 +10,4 @@ __attribute__((format(printf,1,2)))
 void console_print(const char *fmt, ...);
 
 void console_render(void);
+void c_banner(void);
