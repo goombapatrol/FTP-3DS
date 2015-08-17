@@ -8,7 +8,7 @@ Features
 - Appears to work well with a variety of clients.
 - Also compiles for Linux.
 - Supports multiple simultaneous clients.
-- Cutting-edge graphics.
+- ~~Cutting-edge graphics.~~
 
 Build and install
 ------------------
