@@ -22,6 +22,7 @@ Create a **FTP-3DS** (double check that it is spelt **exactly** like this) direc
 - FTP-3DS.3dsx
 - FTP-3DS.smdh
 
+I'll also upload builds whenever things change over on the [releases tab](https://github.com/iamevn/FTP-3DS/releases).
 
 Supported Commands
 ------------------
