@@ -1,7 +1,7 @@
 FTP-3DS
 =======
 
-FTP Server for 3DS.
+FTP Server for 3DS. Forked from [ftBRONY](https://github.com/mtheall/ftbrony)
 
 Features
 --------
