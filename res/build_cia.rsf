@@ -1,7 +1,7 @@
 BasicInfo:
-  Title                   : "CtrApp"
+  Title                   : "3DS FTP"
   CompanyCode             : "00"
-  ProductCode             : "CTR-P-NOTI"
+  ProductCode             : "CTR-P-3FTP"
   ContentType             : Application # Application / SystemUpdate / Manual / Child / Trial
   Logo                    : Nintendo # Nintendo / Licensed / Distributed / iQue / iQueForSystem
 
@@ -11,7 +11,7 @@ Rom:
 
 
 TitleInfo:
-  UniqueId                : 0xf8803 # This was/is the first real homebrew app. I hope this TID range is not used by any retail game/app.
+  UniqueId                : 0xf883f # Unique hexadecimal ID
   Category                : Application # Application / SystemApplication / Applet / Firmware / Base / DlpChild / Demo / Contents / SystemContents / SharedContents / AddOnContents / Patch / AutoUpdateContents
 
 CardInfo:

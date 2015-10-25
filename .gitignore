@@ -1,6 +1,10 @@
 build/
 build.linux/
 ftbrony
+banner.bnr
+icon.icn
+*.cia
+*.3ds
 *.3dsx
 *.smdh
 *.elf
