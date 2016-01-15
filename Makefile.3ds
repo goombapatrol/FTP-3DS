@@ -35,7 +35,7 @@ INCLUDES := include
 APP_TITLE       := FTP-3DS
 APP_DESCRIPTION := Now with 98% less unrelated fanbase pandering! (forked from ftBRONY)
 APP_AUTHOR      := mtheall (with special guest: iamevn)
-ICON            := FTP-3DS.png
+ICON            := icon.png
 
 #---------------------------------------------------------------------------------
 # options for code generation
