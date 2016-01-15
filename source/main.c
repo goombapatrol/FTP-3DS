@@ -65,9 +65,7 @@ main(int  argc,
   /* initialize needed 3DS services */
   gfxInitDefault();
   gfxSet3D(false);
-
-  hidScanInput();
-  if (hidKeysHeld() == 0x80000344) c_banner();
+  sdmcWriteSafe(false);
 #endif
 
   /* initialize console subsystem */

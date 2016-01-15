@@ -10,12 +10,6 @@
 
 #ifdef _3DS
 #include "banner_bin.h"
-#include "bannerl_bin.h"
-u8 *banner = banner_bin;
-void c_banner(void)
-{
-  banner = bannerl_bin;
-}
 
 static PrintConsole status_console;
 static PrintConsole main_console;
@@ -74,7 +68,7 @@ void
 console_render(void)
 {
   /* clear all screens */
-  gfxDrawSprite(GFX_BOTTOM, GFX_LEFT, (u8*)banner, 240, 320, 0, 0);
+  gfxDrawSprite(GFX_BOTTOM, GFX_LEFT, (u8*)banner_bin, 240, 320, 0, 0);
 
   /* flush framebuffer */
   gfxFlushBuffers();
