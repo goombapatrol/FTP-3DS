@@ -32,7 +32,6 @@ SOURCES  := source
 DATA     := data
 INCLUDES := include
 
-<<<<<<< HEAD
 APP_TITLE       := FTP-3DS
 APP_DESCRIPTION := Now with 98% less unrelated fanbase pandering! (forked from ftBRONY)
 APP_AUTHOR      := mtheall (with special guest: iamevn)
